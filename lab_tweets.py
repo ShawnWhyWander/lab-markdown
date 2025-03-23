@@ -232,7 +232,7 @@ with open ("README.md", "w", encoding = "utf-8") as f:
     
     f.write("## Keyword Frequency Table\n\n")
     f.write("| {:>18} | {:>18} |\n".format("phrase", "percent of tweets"))
-    f.write("| ------------------ :| :------------------ |\n")
+    f.write("| ------------------:|:------------------ |\n")
 
     words = ['obama', 'trump', 'mexico', 'russia', 'fake news', 'elon', 'rich', 'god']
     counts = [obama_counts, trump_counts, mexico_counts, russia_counts,
