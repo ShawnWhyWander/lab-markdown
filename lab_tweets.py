@@ -226,7 +226,18 @@ plt.tight_layout()
 plt.savefig("trump_tweet_percentages.png")
 plt.show()
 
+with open ("README.md", "w", encoding = "utf-8") as f:
+    f.write ('# Trump Tweet Keyword Analysis \n\n')
+    f.write ("This project analyzes President Trump's tweet from 2009-2021")
+    
+    f.write("## 📊 Keyword Frequency Table\n\n")
+    f.write("| phrase            | percent of tweets |\n")
+    f.write("| ----------------- | ----------------- |\n")
 
+    for word in sorted(word_counts.keys()):
+        percent = 100 * word_counts[word] / len(data)
+        f.write(f"| {word.rjust(18)} | {percent:05.2f}             |\n")
 
-
-
+    f.write("\n## 📈 Bar Chart\n\n")
+    f.write("![Tweet Keyword Bar Chart](trump_tweet_percentages.png)\n\n")
+    f.write("This chart shows how often Trump used each phrase in his tweets from 2009–2021.\n")

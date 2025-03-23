@@ -6,7 +6,7 @@ lab-markdown
 
 This project analyzes President Trump's tweets from 2009–2021 to count how often he uses specific keywords.
 
-## 📊 Keyword Frequency Table
+##  Keyword Frequency Table
 
 |             phrase | percent of tweets |
 | ------------------ | ----------------- |
