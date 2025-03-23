@@ -1,15 +1,9 @@
-# lab-markdown
-lab-markdown
+# Trump Tweet Keyword Analysis 
 
+This project analyzes President Trump's tweet from 2009-2021## Keyword Frequency Table
 
-# Trump Tweet Keyword Analysis
-
-This project analyzes President Trump's tweets from 2009–2021 to count how often he uses specific keywords.
-
-##  Keyword Frequency Table
-
-|             phrase | percent of tweets |
-| ------------------ | ----------------- |
+|             phrase |  percent of tweets |
+| ------------------ | ------------------ |
 |              obama | 05.51             |
 |              trump | 32.45             |
 |             mexico | 00.62             |
@@ -19,8 +13,7 @@ This project analyzes President Trump's tweets from 2009–2021 to count how oft
 |               rich | 00.64             |
 |                god | 00.57             |
 
-
-## Bar Chart
+## 📈 Bar Chart
 
 ![Tweet Keyword Bar Chart](trump_tweet_percentages.png)
 
